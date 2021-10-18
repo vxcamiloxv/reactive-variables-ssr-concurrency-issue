@@ -12,3 +12,26 @@ is begin destroyed on SSR or CSR
 The reactive variable keep the same value across request on SSR event
 if the apollo client even if stopped / destroyed or the cache was
 cleaned/reset, it becomes a global variable in server.
+
+## Quick Start
+
+### Requirements 
+- Node v14.x or higher
+
+### Usage
+
+```sh
+$ yarn install
+```
+
+Run Next.js on dev mode
+```sh
+$ yarn dev
+```
+
+Open the main page and check the console (browser/terminal) or use Node inspect
+[inspect](https://nextjs.org/docs/advanced-features/debugging)
+
+```sh
+$ yarn inspect
+```
