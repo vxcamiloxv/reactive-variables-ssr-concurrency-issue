@@ -35,3 +35,5 @@ Open the main page and check the console (browser/terminal) or use Node inspect
 ```sh
 $ yarn inspect
 ```
+
+The relevant part happends inside `pages/_app.tsx`
