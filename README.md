@@ -10,7 +10,7 @@ is begin destroyed on SSR or CSR
 
 ### Current behavior
 The reactive variable keep the same value across request on SSR event
-if the apollo client even if stopped / destroyed or the cache was
+if the apollo client was stopped / destroyed or the cache was
 cleaned/reset, it becomes a global variable in server.
 
 ## Quick Start
